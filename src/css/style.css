@@ -1,0 +1,227 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.modal-content {
+  border-radius: 10px;
+  margin: 15% auto;
+  width: 30%;
+  padding: 20px;
+  border: 1px solid #888;
+  background-color: #fefefe;
+}
+
+.modal-body {
+  padding: 10px;
+  height: 75%;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.btn-finish-order {
+  border: 0;
+  padding: 9px;
+  border-radius: 5px;
+  color: white;
+  background-color: #54cc0a;
+  cursor: pointer;
+}
+
+.close {
+  border: 0;
+  padding: 9px;
+  border-radius: 5px;
+  color: white;
+  background-color: #ff3131;
+  cursor: pointer;
+}
+
+.header {
+  width: 100%;
+  height: 40vh;
+  background-image: url('../assets/image/bg.png');
+}
+
+.header-title {
+  padding-top: 20px;
+  padding-right: 5px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.opening-data_title {
+  color: white;
+}
+
+.opening-data_container {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #54cc0a;
+  border-radius: 5px;
+}
+
+.default-text {
+  color: white;
+  font-size: 15px;
+  padding-top: 5px;
+}
+
+.menu-section {
+  margin-left: 10px;
+  margin-right: 40px;
+}
+
+.menu-title_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.item-content_container {
+  padding-left: 15px;
+}
+
+.menu-container {
+  display: flex;
+}
+
+.column {
+  flex: 1;
+}
+
+.menu-list-container {
+  list-style-type: none;
+}
+
+.item-container {
+  display: flex;
+  padding-bottom: 30px;
+  margin-bottom: 20px;
+}
+
+.hamb-img {
+  border-radius: 10px;
+  width: 150px;
+  height: 150px;
+}
+
+.item-content_container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+  flex: 1;
+}
+
+.price-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cart-icon-container {
+  border-radius: 15px;
+  padding: 15px;
+  background-color: black;
+  align-items: center;
+  justify-content: center;
+  padding-top: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.description-container {
+  flex: 1;
+}
+
+.item-price {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.logo {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 100%;
+}
+
+.carrinho {
+  background-color: #ff3131;
+  width: 100%;
+  height: 50px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.carrinho:hover {
+  cursor: pointer;
+}
+
+.text-carrinho {
+  padding-right: 10px;
+}
+
+.Bebidas {
+  display: flex;
+}
+
+.menu-bebidas {
+  margin-right: 40px;
+  margin-left: 10px;
+}
+
+.list-content_coke {
+  width: 50%;
+}
+
+.list-content_guarana {
+  width: 50%;
+}
