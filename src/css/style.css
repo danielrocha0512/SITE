@@ -225,3 +225,11 @@ li {
 .list-content_guarana {
   width: 50%;
 }
+
+.campo-texto {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 230px;
+  height: 20px;
+}
